@@ -1,0 +1,79 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="172dp"
+            android:layout_height="146dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/imglogo" />
+
+        <Button
+            android:id="@+id/log_in"
+            android:layout_width="131dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/beige"
+            android:onClick="logInButton"
+            android:text="@string/login"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/rigester"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/beige"
+            android:text="@string/register"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/about_us"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/beige"
+            android:onClick="aboutUsButton"
+            android:text="@string/about_us"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/cities"
+            android:layout_width="142dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/beige"
+            android:onClick="cityButton"
+            android:text="@string/find_hotel_in_your_area"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:cornerRadius="30dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

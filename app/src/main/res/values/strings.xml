@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyFinalProject</string>
+    <string name="login">LogIn</string>
+    <string name="register">Register</string>
+    <string name="description">Our application allows users to book hotel rooms via smartphones,
+        in addition to browsing to see available hotels in all cities,
+        allowing them to view available rooms and make online payments using credit cards.
+        The total cost of reservation services is calculated, and users receive an online receipt upon payment.
+        The application displays room reservations in an efficient graphical interface,
+        allowing users to choose their preferred room and proceed to checkout.
+        And many more features are available after registering in the system via an email and some information.</string>
+    <string name="about_us">About Us</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="message">Message</string>
+    <string name="submit">Submit</string>
+    <string name="we_can_help_you_find_your_hotel">We Can Help You
+        Find Your Hotel</string>
+    <string name="find_hotel_in_your_area">Check Hotels</string>
+
+</resources>

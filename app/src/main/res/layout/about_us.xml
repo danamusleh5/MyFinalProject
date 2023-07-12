@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    android:id="@+id/linear"
+    tools:context=".Information">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotel Booking"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#D3A115"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ramallah - Palestine"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:alpha="1.0"
+        android:layout_gravity="center"
+        android:textColor="#D3A115"
+        />
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="220dp"
+        android:layout_height="180dp"
+        android:src="@drawable/img"
+        android:alpha="1.0"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="@string/description"
+        android:textSize="18sp"
+        android:alpha="1.0"
+
+        android:layout_marginTop="16dp"
+        android:scrollbars="vertical"
+        android:textColor="#D3A115"
+        android:layout_gravity="center"
+        android:background="@color/black"
+        />
+
+    <Button
+        android:id="@+id/contactButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Contact Us"
+        android:alpha="1.0"
+
+        android:onClick="contactButton"
+        android:layout_marginTop="15dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:alpha="1.0"
+
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/facebook"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="face"
+            android:src="@drawable/facebook"
+            android:background="@null"
+            android:contentDescription="Facebook"
+            />
+
+        <ImageButton
+            android:id="@+id/instagram"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/instagram"
+            android:onClick="instagram"
+            android:layout_marginStart="16dp"
+            android:contentDescription="Instagram" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/rateUs"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Rate Us"
+
+        android:onClick="rateButton"
+        android:layout_marginTop="15dp"
+        />
+</LinearLayout>

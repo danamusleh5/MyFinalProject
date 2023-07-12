@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/txtName"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/beige_border"
+                android:drawablePadding="8dp"
+                android:hint="Enter Your Name:"
+                android:drawableLeft="@drawable/baseline_drive_file_rename_outline_24"
+                android:padding="8dp" />
+            <EditText
+                android:id="@+id/txtemail"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/beige_border"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="8dp"
+                android:hint="Email"
+                android:padding="8dp" />
+            <EditText
+                android:id="@+id/txtNumber"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/beige_border"
+                android:drawablePadding="8dp"
+                android:hint="Enter Number"
+                android:drawableLeft="@drawable/baseline_numbers_24"
+                android:padding="8dp" />
+
+
+            <EditText
+                android:id="@+id/txtPassword"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/beige_border"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawablePadding="8dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/txtConfirm"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/beige_border"
+                android:drawableLeft="@drawable/baseline_password_24"
+                android:drawablePadding="8dp"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/register_button"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:text="Sign Up"
+                android:textSize="18sp"
+                app:cornerRadius="30dp"
+                android:backgroundTint="@color/creamy"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:id="@+id/loginRedirectText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                android:text="Already an user? Login"
+                android:textColor="@color/beige"
+                android:textSize="18sp" />
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:text="Log In"
+                android:textSize="18sp"
+                app:cornerRadius="30dp"
+                android:backgroundTint="@color/creamy"
+                android:textColor="@color/black"/>
+
+
+            <Button
+                android:id="@+id/add"
+                android:onClick="add_hotel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RegisterAs a Hotel"
+                android:backgroundTint="@color/creamy"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".Hotel">
+
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="158dp"
+        android:text="Click ME"
+        android:backgroundTint="@color/creamy"
+        android:textColor="@color/black"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the number of days" />
+
+</LinearLayout>
